@@ -1,0 +1,44 @@
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\bin\Debug\Sistema Administración Clínica Veterinaria.exe.config
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\bin\Debug\Sistema Administración Clínica Veterinaria.exe
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\bin\Debug\Sistema Administración Clínica Veterinaria.pdb
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\bin\Debug\Sistema Administración Clínica Veterinaria.xml
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\bin\Debug\MySql.Data.dll
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\bin\Debug\Google.Protobuf.dll
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\bin\Debug\MySql.Data.xml
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\bin\Debug\Interop.MSComCtl2.dll
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\bin\Debug\AxInterop.MSComCtl2.dll
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Interop.MSComCtl2.dll
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\AxInterop.MSComCtl2.dll
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema Administración Clínica Veterinaria.vbproj.ResolveComReference.cache
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_AgregarAnotacion.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_Agregar_Vacuna.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.frm_Calendario.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.frm_Consultar_Mascota.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_DetalleHospitalizacion.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.frm_ficha_general.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_Gestor_Hospitalizaciones.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_MantenedorEspecies.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.frm_Mantenedor_Clientes.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.frm_Mantenedor_Mascotas.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.frm_Mantenedor_Productos.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_Mantenedor_Proveedores.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_Mantenedor_Veterinarios.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_ModificarAtencion.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_Perfil.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_Previsualizar.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.frm_Principal.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.frm_Registrar_Atencion.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.frm_Registrar_Venta.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.Resources.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.Prueba.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema Administración Clínica Veterinaria.vbproj.GenerateResource.cache
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema Administración Clínica Veterinaria.vbproj.CoreCompileInputs.cache
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema Administración Clínica Veterinaria.vbproj.CopyComplete
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema Administración Clínica Veterinaria.exe
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema Administración Clínica Veterinaria.xml
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema Administración Clínica Veterinaria.pdb
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_MantenedorRazas.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema Administración Clínica Veterinaria.vbprojAssemblyReference.cache
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.Experimentar.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_AgregarInsumo.resources
+C:\Users\betox_000\Desktop\Titulo\Programa\Sistema Administración Clínica Veterinaria\Sistema Administración Clínica Veterinaria\obj\Debug\Sistema_Administración_Clínica_Veterinaria.FRM_BuscarMascota.resources

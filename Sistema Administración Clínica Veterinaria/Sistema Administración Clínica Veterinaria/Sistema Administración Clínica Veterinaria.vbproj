@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73530CB7-358A-4D58-9DE8-6A8FD4A98C9B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sistema_Administración_Clínica_Veterinaria.My.MyApplication</StartupObject>
+    <RootNamespace>Sistema_Administración_Clínica_Veterinaria</RootNamespace>
+    <AssemblyName>Sistema Administración Clínica Veterinaria</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sistema Administración Clínica Veterinaria.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sistema Administración Clínica Veterinaria.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icn.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itext.io">
+      <HintPath>..\..\..\..\itext\iText7-dotnet-7.0.0\itext.io.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.kernel">
+      <HintPath>..\..\..\..\itext\iText7-dotnet-7.0.0\itext.kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.layout">
+      <HintPath>..\..\..\..\itext\iText7-dotnet-7.0.0\itext.layout.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BloqueCodigo.vb" />
+    <Compile Include="BsnNegocio\BsnAjuste.vb" />
+    <Compile Include="BsnNegocio\BsnAtencion.vb" />
+    <Compile Include="BsnNegocio\BsnCliente.vb" />
+    <Compile Include="BsnNegocio\BsnCosto.vb" />
+    <Compile Include="BsnNegocio\BsnDetHosp.vb" />
+    <Compile Include="BsnNegocio\BsnEspecie.vb" />
+    <Compile Include="BsnNegocio\BsnHospitalizacion.vb" />
+    <Compile Include="BsnNegocio\BsnInsumo.vb" />
+    <Compile Include="BsnNegocio\BsnNegocio.vb" />
+    <Compile Include="BsnNegocio\BsnObservacion.vb" />
+    <Compile Include="BsnNegocio\BsnProductos.vb" />
+    <Compile Include="BsnNegocio\BsnProveedores.vb" />
+    <Compile Include="BsnNegocio\BsnRaza.vb" />
+    <Compile Include="BsnNegocio\BsnVacuna.vb" />
+    <Compile Include="BsnNegocio\BsnVenta.vb" />
+    <Compile Include="BsnNegocio\BsnVeterinario.vb" />
+    <Compile Include="Clases\Ajuste.vb" />
+    <Compile Include="Clases\Costo.vb" />
+    <Compile Include="Clases\DetalleVenta.vb" />
+    <Compile Include="Clases\DetHosp.vb" />
+    <Compile Include="Clases\ProcedimientoExterno.vb" />
+    <Compile Include="Clases\Stock.vb" />
+    <Compile Include="Clases\Venta.vb" />
+    <Compile Include="DaoDatos\DaoAjuste.vb" />
+    <Compile Include="DaoDatos\DaoCosto.vb" />
+    <Compile Include="DaoDatos\DaoDetHosp.vb" />
+    <Compile Include="DaoDatos\DaoVenta.vb" />
+    <Compile Include="FRM_BuscarMascota.Designer.vb">
+      <DependentUpon>FRM_BuscarMascota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_BuscarMascota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clases\Hospitalizacion.vb" />
+    <Compile Include="Clases\ListaBusqueda.vb" />
+    <Compile Include="Clases\Observacion.vb" />
+    <Compile Include="Clases\Atencion.vb" />
+    <Compile Include="BsnNegocio\BsnMascota.vb" />
+    <Compile Include="Clases\Cliente.vb" />
+    <Compile Include="Clases\Especie.vb" />
+    <Compile Include="Clases\Insumo.vb" />
+    <Compile Include="Clases\Producto.vb" />
+    <Compile Include="Clases\Proveedor.vb" />
+    <Compile Include="Clases\Raza.vb" />
+    <Compile Include="Clases\Vacuna.vb" />
+    <Compile Include="Clases\Veterinario.vb" />
+    <Compile Include="Convertir.vb" />
+    <Compile Include="DaoDatos\Conexion.vb" />
+    <Compile Include="DaoDatos\DaoAtencion.vb" />
+    <Compile Include="DaoDatos\DaoClientes.vb" />
+    <Compile Include="DaoDatos\DaoDatos.vb" />
+    <Compile Include="DaoDatos\DaoHospitalizacion.vb" />
+    <Compile Include="DaoDatos\DaoInsumo.vb" />
+    <Compile Include="DaoDatos\DaoObservacion.vb" />
+    <Compile Include="DaoDatos\DaoProductos.vb" />
+    <Compile Include="DaoDatos\DaoProveedores.vb" />
+    <Compile Include="DaoDatos\DaoRazas.vb" />
+    <Compile Include="DaoDatos\DaoEspecies.vb" />
+    <Compile Include="DaoDatos\DaoMascota.vb" />
+    <Compile Include="DaoDatos\DaoVacunas.vb" />
+    <Compile Include="DaoDatos\DaoVeterinario.vb" />
+    <Compile Include="Experimentar.Designer.vb">
+      <DependentUpon>Experimentar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Experimentar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_AgregarAnotacion.Designer.vb">
+      <DependentUpon>FRM_AgregarAnotacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_AgregarAnotacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Agregar_Vacuna.Designer.vb">
+      <DependentUpon>FRM_Agregar_Vacuna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Agregar_Vacuna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Calendario.Designer.vb">
+      <DependentUpon>frm_Calendario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Calendario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Consultar_Mascota.Designer.vb">
+      <DependentUpon>frm_Consultar_Mascota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Consultar_Mascota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_DetalleHospitalizacion.Designer.vb">
+      <DependentUpon>FRM_DetalleHospitalizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_DetalleHospitalizacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Gestor_Hospitalizaciones.Designer.vb">
+      <DependentUpon>FRM_Gestor_Hospitalizaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Gestor_Hospitalizaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_AgregarInsumo.Designer.vb">
+      <DependentUpon>FRM_AgregarInsumo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_AgregarInsumo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_MantenedorEspecies.Designer.vb">
+      <DependentUpon>FRM_MantenedorEspecies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MantenedorEspecies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_MantenedorRazas.Designer.vb">
+      <DependentUpon>FRM_MantenedorRazas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MantenedorRazas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Mantenedor_Proveedores.Designer.vb">
+      <DependentUpon>FRM_Mantenedor_Proveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Mantenedor_Proveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Mantenedor_Veterinarios.Designer.vb">
+      <DependentUpon>FRM_Mantenedor_Veterinarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Mantenedor_Veterinarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_ModificarAtencion.Designer.vb">
+      <DependentUpon>FRM_ModificarAtencion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_ModificarAtencion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Perfil.Designer.vb">
+      <DependentUpon>FRM_Perfil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Perfil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Previsualizar.Designer.vb">
+      <DependentUpon>FRM_Previsualizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Previsualizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Principal.Designer.vb">
+      <DependentUpon>frm_Principal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Registrar_Atencion.Designer.vb">
+      <DependentUpon>frm_Registrar_Atencion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Registrar_Atencion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ficha_general.Designer.vb">
+      <DependentUpon>frm_ficha_general.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ficha_general.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Mantenedor_Mascotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Mantenedor_Mascotas.Designer.vb">
+      <DependentUpon>frm_Mantenedor_Mascotas.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Registrar_Venta.Designer.vb">
+      <DependentUpon>frm_Registrar_Venta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Registrar_Venta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Mantenedor_Clientes.Designer.vb">
+      <DependentUpon>frm_Mantenedor_Clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Mantenedor_Clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Mantenedor_Productos.Designer.vb">
+      <DependentUpon>frm_Mantenedor_Productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Mantenedor_Productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clases\Mascota.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Prueba.Designer.vb">
+      <DependentUpon>Prueba.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prueba.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FRM_BuscarMascota.resx">
+      <DependentUpon>FRM_BuscarMascota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Experimentar.resx">
+      <DependentUpon>Experimentar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_AgregarAnotacion.resx">
+      <DependentUpon>FRM_AgregarAnotacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Agregar_Vacuna.resx">
+      <DependentUpon>FRM_Agregar_Vacuna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Calendario.resx">
+      <DependentUpon>frm_Calendario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Consultar_Mascota.resx">
+      <DependentUpon>frm_Consultar_Mascota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_DetalleHospitalizacion.resx">
+      <DependentUpon>FRM_DetalleHospitalizacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ficha_general.resx">
+      <DependentUpon>frm_ficha_general.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Gestor_Hospitalizaciones.resx">
+      <DependentUpon>FRM_Gestor_Hospitalizaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_AgregarInsumo.resx">
+      <DependentUpon>FRM_AgregarInsumo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_MantenedorEspecies.resx">
+      <DependentUpon>FRM_MantenedorEspecies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_MantenedorRazas.resx">
+      <DependentUpon>FRM_MantenedorRazas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Mantenedor_Clientes.resx">
+      <DependentUpon>frm_Mantenedor_Clientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Mantenedor_Mascotas.resx">
+      <DependentUpon>frm_Mantenedor_Mascotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Mantenedor_Productos.resx">
+      <DependentUpon>frm_Mantenedor_Productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Mantenedor_Proveedores.resx">
+      <DependentUpon>FRM_Mantenedor_Proveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Mantenedor_Veterinarios.resx">
+      <DependentUpon>FRM_Mantenedor_Veterinarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_ModificarAtencion.resx">
+      <DependentUpon>FRM_ModificarAtencion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Perfil.resx">
+      <DependentUpon>FRM_Perfil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Previsualizar.resx">
+      <DependentUpon>FRM_Previsualizar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Principal.resx">
+      <DependentUpon>frm_Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Registrar_Atencion.resx">
+      <DependentUpon>frm_Registrar_Atencion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Registrar_Venta.resx">
+      <DependentUpon>frm_Registrar_Venta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prueba.resx">
+      <DependentUpon>Prueba.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\dog-313609_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REGISTRAR_ATENCION1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\CALENDARIO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\CLIENTES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\MASCOTAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\REGISTRAR_ATENCION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\destacado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\CLIENTES_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\MASCOTAS_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\CALENDARIO_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLIENTES_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MASCOTAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REGISTRAR_ATENCION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REGISTRAR_ATENCION_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CALENDARIO DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CALENDARIO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLIENTES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\Portada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textura-de-acuarela-azul-con-puntos_1035-6833.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1757a59a8b4c04b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8e44a6foto-comunicado-253.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prueba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuidados-mascotas-primavera-verdecora.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59a1bac6de792.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MASCOTAS_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\PROVEEDORES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\PROVEEDORES_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\VETERINARIOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\VETERINARIOS_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\PRODUCTOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\PRODUCTOS_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\REGISTRAR_VENTA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\botones\REGISTRAR_VENTA_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxMSComCtl2">
+      <Guid>{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MSComCtl2">
+      <Guid>{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hhh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAgregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAgregarDestacado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascotaSimbolo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-symbol_318-63527.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\mascotaSilueta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSalir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\symbol1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\symbol2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\symbol3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\symbol4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\symbol5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ojo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ojo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sinojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oslRB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoBlanco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\centro-veterinario-4-patas-atencion-2-0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBWREggbkwFxTfI-1600x900-noPad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slider_pup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Caninos y Felinos Ajustada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491177881213-1200x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7a87b5c60ed68a903e52c16ac685417f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bokser_pręgowany_756.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remedio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escribir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fecha derecha destacado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha izquierda_destacado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOSPITALIZACION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOSPITALIZACION_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESPECIES_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RAZAS_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESPECIES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RAZAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DESCRIPCION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DESCRIPCION_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DETALLES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DETALLE_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OBSERVACIONES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OBSERVACIONES_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VOLVERCAL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VOLVERCAL_DESTACADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\molde_pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destacado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relojito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dosis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rStock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contenido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mldStock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icn.ico" />
+    <None Include="Resources\gdpc_destacado.png" />
+    <None Include="Resources\gdpc.png" />
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

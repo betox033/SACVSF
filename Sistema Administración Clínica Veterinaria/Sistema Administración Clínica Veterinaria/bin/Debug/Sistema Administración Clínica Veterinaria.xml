@@ -1,0 +1,436 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Sistema Administración Clínica Veterinaria
+</name>
+</assembly>
+<members>
+<member name="T:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources._1491177881213_1200x600">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources._59a1bac6de792">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources._7a87b5c60ed68a903e52c16ac685417f">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.Bokser_pręgowany_756">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.btnAgregar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.btnAgregarDestacado">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.btnSalir">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.CALENDARIO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.CALENDARIO_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.Caninos_y_Felinos_Ajustada">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.centro_veterinario_4_patas_atencion_2_0">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.CLIENTES">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.CLIENTES_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.contador">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.contenido">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.cosa">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.cuidados_mascotas_primavera_verdecora">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.DESCRIPCION">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.DESCRIPCION_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.destacado">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.DETALLE_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.DETALLES">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.dosis">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.escribir">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.ESPECIES">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.ESPECIES_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.fecha_derecha_destacado">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.flecha_derecha">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.flecha_izquierda">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.flecha_izquierda_destacado">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.fondoBlanco">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.foto">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.gdpc">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.gdpc_destacado">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.hhh">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.hola">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.HOSPITALIZACION">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.HOSPITALIZACION_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.images">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.MASCOTAS">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.MASCOTAS_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.mascotaSilueta">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.mascotaSimbolo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.min">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.mldStock">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.molde_pdf">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.money">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.OBSERVACIONES">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.OBSERVACIONES_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.ojo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.oslRB">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.plantilla">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.Portada">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.PRODUCTOS">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.PRODUCTOS_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.PROVEEDORES">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.PROVEEDORES_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.prueba">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.RAZAS">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.RAZAS_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.REGISTRAR_ATENCION">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.REGISTRAR_ATENCION_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.REGISTRAR_VENTA">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.REGISTRAR_VENTA_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.relojito">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.remedio">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.rStock">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.salir">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.SBWREggbkwFxTfI_1600x900_noPad">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.sinojo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.slider_pup">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.symbol1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.symbol2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.symbol3">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.symbol4">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.symbol5">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.user">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.user_symbol_318_63527">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.VETERINARIOS">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.VETERINARIOS_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.VOLVERCAL">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_Administración_Clínica_Veterinaria.My.Resources.Resources.VOLVERCAL_DESTACADO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
